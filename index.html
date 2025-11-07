@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio professionale - Sviluppo Web, Debugging e Automazioni">
+    <title>Il Tuo Nome - Web Developer & Automation Specialist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home">Portfolio</a>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Chi Sono</a></li>
+                <li><a href="#services" class="nav-link">Servizi</a></li>
+                <li><a href="#projects" class="nav-link">Progetti</a></li>
+                <li><a href="#skills" class="nav-link">Competenze</a></li>
+                <li><a href="#contact" class="nav-link">Contatti</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting">Ciao, sono</span>
+                    <span class="name">Il Tuo Nome</span>
+                </h1>
+                <p class="hero-subtitle">Web Developer & Automation Specialist</p>
+                <p class="hero-description">
+                    Trasformo le tue idee in soluzioni web funzionali e professionali. 
+                    Specializzato in interfacce moderne, debugging efficiente e automazioni intelligenti.
+                </p>
+                <div class="hero-services">
+                    <div class="service-badge">
+                        <i class="fas fa-code"></i>
+                        <span>Interfacce Web</span>
+                    </div>
+                    <div class="service-badge">
+                        <i class="fas fa-bug"></i>
+                        <span>Debugging</span>
+                    </div>
+                    <div class="service-badge">
+                        <i class="fas fa-robot"></i>
+                        <span>Automazioni</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Contattami</a>
+                    <a href="#projects" class="btn btn-secondary">Vedi Progetti</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image-wrapper">
+                        <img src="https://via.placeholder.com/300x300/667eea/ffffff?text=Your+Photo" alt="Profile" class="profile-image">
+                        <div class="profile-status">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Disponibile</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Chi Sono</h2>
+                <p class="section-subtitle">Appassionato di tecnologia e soluzioni creative</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Sono uno sviluppatore web con una passione per la creazione di esperienze digitali 
+                        intuitive e funzionali. Con una solida esperienza in HTML, CSS e JavaScript, 
+                        mi dedico a trasformare concetti in realtà digitali.
+                    </p>
+                    <p>
+                        La mia esperienza spazia dalla creazione di interfacce web responsive e moderne, 
+                        al debugging e ottimizzazione di codice esistente, fino allo sviluppo di script 
+                        e automazioni che semplificano i processi lavorativi quotidiani.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Attenzione ai dettagli</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Codice pulito e manutenibile</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Soluzioni su misura</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Comunicazione chiara</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">I Miei Servizi</h2>
+                <p class="section-subtitle">Soluzioni professionali per le tue esigenze digitali</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Interfacce Web</h3>
+                    <p>
+                        Creo siti web moderni, responsive e user-friendly utilizzando HTML5, CSS3 e JavaScript. 
+                        Design accattivanti che si adattano perfettamente a ogni dispositivo.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Design responsive</li>
+                        <li><i class="fas fa-check"></i> Ottimizzazione performance</li>
+                        <li><i class="fas fa-check"></i> Cross-browser compatibility</li>
+                        <li><i class="fas fa-check"></i> Animazioni moderne</li>
+                    </ul>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="featured-badge">Più Richiesto</div>
+                    <div class="service-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Debugging & Correzione</h3>
+                    <p>
+                        Risolvo bug complessi e ottimizzò codice esistente. Analisi approfondita del problema 
+                        e soluzioni efficaci che migliorano le prestazioni e la manutenibilità.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Identificazione rapida dei bug</li>
+                        <li><i class="fas fa-check"></i> Refactoring del codice</li>
+                        <li><i class="fas fa-check"></i> Ottimizzazione prestazioni</li>
+                        <li><i class="fas fa-check"></i> Code review</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Script & Automazioni</h3>
+                    <p>
+                        Sviluppo script personalizzati e automazioni che semplificano processi ripetitivi, 
+                        facendoti risparmiare tempo e aumentando la produttività.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Automazione task ripetitivi</li>
+                        <li><i class="fas fa-check"></i> Script personalizzati</li>
+                        <li><i class="fas fa-check"></i> Integrazione API</li>
+                        <li><i class="fas fa-check"></i> Data processing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Progetti Recenti</h2>
+                <p class="section-subtitle">Alcuni dei lavori di cui vado più fiero</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300/667eea/ffffff?text=E-commerce+Website" alt="Progetto 1">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <h3>E-commerce Moderno</h3>
+                        <p>Sito e-commerce responsive con carrello funzionante, filtri prodotti e checkout flow completo.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300/764ba2/ffffff?text=Portfolio+Website" alt="Progetto 2">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Animations</span>
+                        </div>
+                        <h3>Portfolio Creativo</h3>
+                        <p>Portfolio per artista digitale con galleria interattiva e animazioni fluide al scroll.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300/f093fb/ffffff?text=Dashboard+Admin" alt="Progetto 3">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Charts</span>
+                            <span class="tag">API</span>
+                        </div>
+                        <h3>Dashboard Analytics</h3>
+                        <p>Dashboard amministrativa con grafici interattivi, tabelle dinamiche e integrazione API.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300/4facfe/ffffff?text=Automation+Script" alt="Progetto 4">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Automation</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                        <h3>Sistema di Automazione</h3>
+                        <p>Script di automazione per gestione email, backup automatici e report schedulati.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300/43e97b/ffffff?text=Landing+Page" alt="Progetto 5">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Forms</span>
+                        </div>
+                        <h3>Landing Page Convertente</h3>
+                        <p>Landing page ottimizzata per conversioni con form di contatto e integrazione newsletter.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300/fa709a/ffffff?text=Bug+Fix+Project" alt="Progetto 6">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Debugging</span>
+                            <span class="tag">Optimization</span>
+                            <span class="tag">Refactoring</span>
+                        </div>
+                        <h3>Refactoring Completo</h3>
+                        <p>Risoluzione bug critici e refactoring di applicazione legacy con miglioramento performance del 60%.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Competenze Tecniche</h2>
+                <p class="section-subtitle">Le tecnologie che utilizzo quotidianamente</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-tags">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Responsive Design</span>
+                    <span class="skill-tag">Git & GitHub</span>
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">Chrome DevTools</span>
+                    <span class="skill-tag">Debugging</span>
+                    <span class="skill-tag">Problem Solving</span>
+                    <span class="skill-tag">Code Review</span>
+                    <span class="skill-tag">API Integration</span>
+                    <span class="skill-tag">Performance Optimization</span>
+                    <span class="skill-tag">SEO Basics</span>
+                    <span class="skill-tag">Web Accessibility</span>
+                    <span class="skill-tag">Agile Methodology</span>
+                    <span class="skill-tag">Testing & QA</span>
+                    <span class="skill-tag">Documentation</span>
+                    <span class="skill-tag">NPM</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contattami</h2>
+                <p class="section-subtitle">Hai un progetto in mente? Parliamone!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informazioni di Contatto</h3>
+                    <p>Sono sempre disponibile per nuovi progetti e collaborazioni. Non esitare a contattarmi!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:tuaemail@example.com">tuaemail@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-fiverr"></i>
+                            <div>
+                                <h4>Fiverr</h4>
+                                <a href="https://www.fiverr.com/tuousername" target="_blank">fiverr.com/tuousername</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/tuousername" target="_blank">github.com/tuousername</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/tuoprofile" target="_blank">linkedin.com/in/tuoprofile</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/tuousername" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/tuoprofile" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.fiverr.com/tuousername" target="_blank" class="social-link">
+                            <i class="fab fa-fiverr"></i>
+                        </a>
+                        <a href="https://twitter.com/tuousername" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Oggetto</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Messaggio</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span class="btn-text">Invia Messaggio</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Il Tuo Nome</h3>
+                    <p>Web Developer & Automation Specialist</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Link Rapidi</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Servizi</a></li>
+                        <li><a href="#projects">Progetti</a></li>
+                        <li><a href="#contact">Contatti</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Seguimi</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/tuousername" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/tuoprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.fiverr.com/tuousername" target="_blank"><i class="fab fa-fiverr"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Il Tuo Nome. Tutti i diritti riservati.</p>
+                <p>Realizzato con <i class="fas fa-heart"></i> e molto <i class="fas fa-coffee"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollTopBtn" class="scroll-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
